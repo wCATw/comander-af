@@ -4,10 +4,14 @@
     "strict": true,
     "target": "ESNext",
     "module": "CommonJS",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "lib": ["ESNext"],
     "rootDir": "src",
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types", "node_modules/discord.js/typings", "node_modules/discord-api-types"],
+    "removeComments": true
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src"]

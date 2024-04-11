@@ -1,5 +1,15 @@
 {
   "name": "comander-af",
+  "private": true,
+  "engines": {
+    "node": ">=20.12.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/Bot.ts",
+    "start": "ts-node src/Bot.ts",
+    "build": "tsc --build",
+    "production": "bun run build && node dist/Bot.js"
+  },
   "devDependencies": {
     "@types/bun": "^1.0.12",
     "@types/node": "^20.12.7",
