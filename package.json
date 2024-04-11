@@ -1,5 +1,8 @@
 {
   "name": "comander-af",
+  "author": "Lev Kotovskiy <kotovskiy@studio-aw.ru>",
+  "description": "Meow.",
+  "keywords": ["discord.js", "typescript", "bot", "discord"],
   "private": true,
   "engines": {
     "node": ">=20.12.2"
